@@ -1,0 +1,87 @@
+/* Lessens the probability of floats to crash */
+#collection0, #collection1, #collection2, #collection3, #collection4, #collection5, #collection6, #collection7, #collection8, #collection9, #collection10
+{
+	overflow: hidden !important;
+}
+
+/* Fix height of clearers so that they are not too high */
+.clearer {
+	height: 1px;
+}
+
+/* ie6 css */
+.sf-menu span.parent {
+	visibility: visible;
+}
+
+/*This will disable the bottom border on flir replaced menu items, specifically on design Minimalist*/
+div.nav li.current img.flir-image {
+border-bottom-width: 0px !important;
+}
+
+div.nav li img.flir-image {
+border-bottom-width: 0px !important;
+}
+
+
+
+/* H24 frontpage */
+.cc_tr_whitefrontpage, .cc_tl_whitefrontpage, .cc_mr_whitefrontpage, .cc_ml_whitefrontpage, .cc_br_whitefrontpage, .cc_bl_whitefrontpage, #mainBottom {
+	background-image: none !important;
+	background-color: #fff!important;
+}
+
+div#footerContent {
+background-image: none;
+}
+
+.h24_large_inputs .idle,
+.h24_large_inputs .activeField{
+background-image: none !important;
+background-color: #fff;
+width: 250px;
+}
+
+.h24_large_inputs label.inputField {
+display: block;
+}
+
+a.h24_btn_subtext span {
+text-align: left;
+}
+
+/*side menu*/
+ul#sideMenu li a {
+background-image: none !important;
+color: #222 !important;
+}
+ul#sideMenu li.current a.child div, ul#sideMenu li a.has_current_below.child div { 
+display: none;
+}
+
+ul#sideMenu {
+	overflow: hidden;
+}
+div#mainTitle {
+height: 61px !important;
+background-position: 0 1px;
+}
+
+#helpAlternatives {
+	width: 860px;
+}
+#helpAlternatives .helpBox {
+margin-right:0px !important;
+width:200px !important;
+}
+
+.h24_homepage_title h1 a {
+  visibility:visible;
+}
+
+.h24_homepage_title p {
+  visibility:visible;
+}
+
+
+

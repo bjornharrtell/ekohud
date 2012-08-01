@@ -1,0 +1,13 @@
+
+/* Fixes for IE */
+
+.h24_large_inputs input[type=text], .h24_large_inputs input[type=password]{
+padding-top: 8px;
+padding-bottom: 1px;
+}
+
+
+
+/*.clearer {
+height: 0px !important;
+}*/

@@ -1,0 +1,11 @@
+
+/* _________________________________________________________________ PRODUCT PRICE BLOCK (OLD ONE)  ______________________ */
+
+.h24_price_block_contents, .h24_price_block_contents .h24_price_li, .h24_price_block_contents .h24_price_li select {
+	max-width: none;
+}
+
+
+.h24_price_block_contents .h24_price_li select {
+	max-width: 200px;
+}

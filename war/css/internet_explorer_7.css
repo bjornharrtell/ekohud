@@ -1,0 +1,8 @@
+/* IE7 specific */
+
+/* Fix height of clearers so that they are not too high */
+
+
+.clearer {
+	height: 1px;
+}
